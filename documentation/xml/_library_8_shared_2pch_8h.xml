@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_library_8_shared_2pch_8h" kind="file" language="C++">
+    <compoundname>pch.h</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="no">string</includes>
+    <includedby refid="_library_8_shared_2pch_8cpp" local="yes">C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/pch.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/pch.h</label>
+        <link refid="_library_8_shared_2pch_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_library_8_shared_2pch_8h_1a2388a8543c4492e3e3f1fffeca80c6ee" prot="public" static="no">
+        <name>UNREFERENCED_LOCAL</name>
+        <param><defname>L</defname></param>
+        <initializer>(L)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/pch.h" line="8" column="9" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/pch.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//Standard<sp/>Library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UNREFERENCED_LOCAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNREFERENCED_LOCAL(L)<sp/>(L)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/pch.h"/>
+  </compounddef>
+</doxygen>

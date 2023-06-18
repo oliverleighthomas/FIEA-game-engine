@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_d4fa2888f00258cfa67adb7adc1a9e37" kind="dir">
+    <compoundname>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests</compoundname>
+    <innerfile refid="_foo_8cpp">Foo.cpp</innerfile>
+    <innerfile refid="_foo_8h">Foo.h</innerfile>
+    <innerfile refid="_foo_tests_8cpp">FooTests.cpp</innerfile>
+    <innerfile refid="_library_8_desktop_8_tests_2pch_8cpp">pch.cpp</innerfile>
+    <innerfile refid="_library_8_desktop_8_tests_2pch_8h">pch.h</innerfile>
+    <innerfile refid="_s_list_tests_8cpp">SListTests.cpp</innerfile>
+    <innerfile refid="_to_string_specialization_8h">ToStringSpecialization.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/"/>
+  </compounddef>
+</doxygen>

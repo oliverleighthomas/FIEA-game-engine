@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_unit_tests_1_1_foo" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>UnitTests::Foo</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unit_tests_1_1_foo_1abd2025f4746a0726688f2ae706228c41" prot="private" static="no" mutable="no">
+        <type>std::int32_t *</type>
+        <definition>std::int32_t* UnitTests::Foo::_data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <qualifiedname>UnitTests::Foo::_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="24" column="14" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a91f150c91d15d9f40cb30fa1385bfac6" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UnitTests::Foo::Foo</definition>
+        <argsstring>(std::int32_t data=0)</argsstring>
+        <name>Foo</name>
+        <qualifiedname>UnitTests::Foo::Foo</qualifiedname>
+        <param>
+          <type>std::int32_t</type>
+          <declname>data</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="10" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a22437a0a9ab8239fa3ffcf71006399f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UnitTests::Foo::Foo</definition>
+        <argsstring>(const Foo &amp;rhs)</argsstring>
+        <name>Foo</name>
+        <qualifiedname>UnitTests::Foo::Foo</qualifiedname>
+        <param>
+          <type>const <ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="11" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a750bef9f18ce9eacd97144de294209b9" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnitTests::Foo::Foo</definition>
+        <argsstring>(Foo &amp;&amp;rhs) noexcept</argsstring>
+        <name>Foo</name>
+        <qualifiedname>UnitTests::Foo::Foo</qualifiedname>
+        <param>
+          <type><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;&amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="12" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a5f3e3304b991da43cee32f83980b57a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;</type>
+        <definition>Foo &amp; UnitTests::Foo::operator=</definition>
+        <argsstring>(const Foo &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>UnitTests::Foo::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="13" column="5" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="24" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a1bd5f43d89bff198b656f0ba66beacec" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;</type>
+        <definition>Foo &amp; UnitTests::Foo::operator=</definition>
+        <argsstring>(Foo &amp;&amp;rhs) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>UnitTests::Foo::operator=</qualifiedname>
+        <param>
+          <type><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;&amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="14" column="5" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="34" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a93deea42b95e617245bda005db0e77cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>UnitTests::Foo::~Foo</definition>
+        <argsstring>()</argsstring>
+        <name>~Foo</name>
+        <qualifiedname>UnitTests::Foo::~Foo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="15" column="9" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1ae274b380d5b58eab888187d79b820938" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnitTests::Foo::operator==</definition>
+        <argsstring>(const Foo &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>UnitTests::Foo::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="17" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1af06f3e8c4a8ef093b4c6288d7cf8d8c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnitTests::Foo::operator!=</definition>
+        <argsstring>(const Foo &amp;rhs) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>UnitTests::Foo::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="18" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a63142a4081c8ee91a9635e7a16549f76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int32_t</type>
+        <definition>int32_t UnitTests::Foo::Data</definition>
+        <argsstring>() const</argsstring>
+        <name>Data</name>
+        <qualifiedname>UnitTests::Foo::Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="20" column="14" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unit_tests_1_1_foo_1a57554fad10e431910f48dd342db8dd7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnitTests::Foo::SetData</definition>
+        <argsstring>(std::int32_t data)</argsstring>
+        <name>SetData</name>
+        <qualifiedname>UnitTests::Foo::SetData</qualifiedname>
+        <param>
+          <type>std::int32_t</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="21" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" line="7" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_unit_tests_1_1_foo_1abd2025f4746a0726688f2ae706228c41" prot="private" virt="non-virtual"><scope>UnitTests::Foo</scope><name>_data</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a63142a4081c8ee91a9635e7a16549f76" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>Data</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a91f150c91d15d9f40cb30fa1385bfac6" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>Foo</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a22437a0a9ab8239fa3ffcf71006399f5" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>Foo</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a750bef9f18ce9eacd97144de294209b9" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>Foo</name></member>
+      <member refid="class_unit_tests_1_1_foo_1af06f3e8c4a8ef093b4c6288d7cf8d8c7" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>operator!=</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a5f3e3304b991da43cee32f83980b57a2" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>operator=</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a1bd5f43d89bff198b656f0ba66beacec" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>operator=</name></member>
+      <member refid="class_unit_tests_1_1_foo_1ae274b380d5b58eab888187d79b820938" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>operator==</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a57554fad10e431910f48dd342db8dd7e" prot="public" virt="non-virtual"><scope>UnitTests::Foo</scope><name>SetData</name></member>
+      <member refid="class_unit_tests_1_1_foo_1a93deea42b95e617245bda005db0e77cf" prot="public" virt="virtual"><scope>UnitTests::Foo</scope><name>~Foo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_library_desktop_tests" kind="namespace" language="C++">
+    <compoundname>LibraryDesktopTests</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_s_list_tests_8cpp_1a2b69b3f907a5fe5af5f6189a4ef61ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LibraryDesktopTests::TEST_CLASS</definition>
+        <argsstring>(SListTests)</argsstring>
+        <name>TEST_CLASS</name>
+        <qualifiedname>LibraryDesktopTests::TEST_CLASS</qualifiedname>
+        <param>
+          <type>SListTests</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/SListTests.cpp" line="15" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/SListTests.cpp" bodystart="15" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_list_tests_8cpp_1a42bf51e951df26ace9801f6c1faf78c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LibraryDesktopTests::TEST_CLASS</definition>
+        <argsstring>(SListIteratorTests)</argsstring>
+        <name>TEST_CLASS</name>
+        <qualifiedname>LibraryDesktopTests::TEST_CLASS</qualifiedname>
+        <param>
+          <type>SListIteratorTests</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/SListTests.cpp" line="310" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/SListTests.cpp" bodystart="310" bodyend="523"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/SListTests.cpp" line="13" column="1"/>
+  </compounddef>
+</doxygen>

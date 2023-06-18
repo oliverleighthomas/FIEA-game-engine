@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_microsoft_1_1_visual_studio_1_1_cpp_unit_test_framework" kind="namespace" language="C++">
+    <compoundname>Microsoft::VisualStudio::CppUnitTestFramework</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_to_string_specialization_8h_1aedfe03f0ab9a86d2bf4933f2d52ea579" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::wstring</type>
+        <definition>std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt; UnitTests::Foo &gt;</definition>
+        <argsstring>(const UnitTests::Foo &amp;t)</argsstring>
+        <name>ToString&lt; UnitTests::Foo &gt;</name>
+        <qualifiedname>Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt; UnitTests::Foo &gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="class_unit_tests_1_1_foo" kindref="compound">UnitTests::Foo</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" line="12" column="8" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="_to_string_specialization_8h_1abefd9124b93d987cf7bc11bdb51f7a30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::wstring</type>
+        <definition>std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt; UnitTests::Foo &gt;</definition>
+        <argsstring>(const UnitTests::Foo *t)</argsstring>
+        <name>ToString&lt; UnitTests::Foo &gt;</name>
+        <qualifiedname>Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt; UnitTests::Foo &gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="class_unit_tests_1_1_foo" kindref="compound">UnitTests::Foo</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" line="18" column="8" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="_to_string_specialization_8h_1a6ad2eb36e18f4c9e580495adcfb5cdbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::wstring</type>
+        <definition>std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt; UnitTests::Foo &gt;</definition>
+        <argsstring>(UnitTests::Foo *t)</argsstring>
+        <name>ToString&lt; UnitTests::Foo &gt;</name>
+        <qualifiedname>Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt; UnitTests::Foo &gt;</qualifiedname>
+        <param>
+          <type><ref refid="class_unit_tests_1_1_foo" kindref="compound">UnitTests::Foo</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" line="24" column="8" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

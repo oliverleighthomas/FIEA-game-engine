@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_4ffbc6e83034df6956623c0c7e130740" kind="dir">
+    <compoundname>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared</compoundname>
+    <innerfile refid="_library_8_shared_2pch_8cpp">pch.cpp</innerfile>
+    <innerfile refid="_library_8_shared_2pch_8h">pch.h</innerfile>
+    <innerfile refid="_s_list_8h">SList.h</innerfile>
+    <innerfile refid="_s_list_8inl">SList.inl</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/"/>
+  </compounddef>
+</doxygen>

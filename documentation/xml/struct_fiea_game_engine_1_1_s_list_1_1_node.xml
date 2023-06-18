@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_fiea_game_engine_1_1_s_list_1_1_node" kind="struct" language="C++" prot="private">
+    <compoundname>FieaGameEngine::SList::Node</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_fiea_game_engine_1_1_s_list_1_1_node_1aa0935b9930be78801af9ca6fb993b295" prot="public" static="no" mutable="no">
+        <type>value_type</type>
+        <definition>value_type FieaGameEngine::SList&lt; T &gt;::Node::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>FieaGameEngine::SList::Node::data</qualifiedname>
+        <briefdescription>
+<para>The data on the node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="29" column="12" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_fiea_game_engine_1_1_s_list_1_1_node_1afb0780372d7c07ecab872423bbf47463" prot="public" static="no" mutable="no">
+        <type>Node *</type>
+        <definition>Node* FieaGameEngine::SList&lt; T &gt;::Node::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>FieaGameEngine::SList::Node::next</qualifiedname>
+        <initializer>{nullptr}</initializer>
+        <briefdescription>
+<para>A pointer to the next node in <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. Defaults to nullptr. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="33" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_fiea_game_engine_1_1_s_list_1_1_node_1a41defb724678a3159880ac7cbef12329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieaGameEngine::SList&lt; T &gt;::Node::Node</definition>
+        <argsstring>(const_reference data, Node *next=nullptr)</argsstring>
+        <name>Node</name>
+        <qualifiedname>FieaGameEngine::SList::Node::Node</qualifiedname>
+        <param>
+          <type>const_reference</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Node *</type>
+          <declname>next</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>The constructor for the node struct. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data associated with the node.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>next</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the next node. Defaults to nullptr.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="40" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The node struct that holds data for <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>FieaGameEngine::SList&lt; T &gt;::Node</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FieaGameEngine::SList&lt; T &gt;::Node</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="25" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="25" bodyend="41"/>
+    <listofallmembers>
+      <member refid="struct_fiea_game_engine_1_1_s_list_1_1_node_1aa0935b9930be78801af9ca6fb993b295" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Node</scope><name>data</name></member>
+      <member refid="struct_fiea_game_engine_1_1_s_list_1_1_node_1afb0780372d7c07ecab872423bbf47463" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Node</scope><name>next</name></member>
+      <member refid="struct_fiea_game_engine_1_1_s_list_1_1_node_1a41defb724678a3159880ac7cbef12329" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Node</scope><name>Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

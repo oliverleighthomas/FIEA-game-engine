@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_fiea_game_engine_1_1_s_list_1_1_iterator" kind="class" language="C++" prot="public">
+    <compoundname>FieaGameEngine::SList::Iterator</compoundname>
+    <includes refid="_s_list_8h" local="no">SList.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a8491d94f2e176ae32f2b4fc748e4fb92" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend FieaGameEngine::SList&lt; T &gt;::Iterator::SList</definition>
+        <argsstring></argsstring>
+        <name>SList</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::SList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="48" column="8" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1aa6fe6a1df73d2ef98452bbf6ee943fdd" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> *</type>
+        <definition>const SList* FieaGameEngine::SList&lt; T &gt;::Iterator::owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::owner</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>The SList&lt;T&gt; the iterator is associated with. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="124" column="13" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1ad011141debbf62674e6a8e2e31ccd780" prot="private" static="no" mutable="no">
+        <type>Node *</type>
+        <definition>Node* FieaGameEngine::SList&lt; T &gt;::Iterator::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::node</qualifiedname>
+        <initializer>{nullptr}</initializer>
+        <briefdescription>
+<para>The node the iterator is pointing to. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="128" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1aa4dc887fd9871445cbe24df165f993f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FieaGameEngine::SList&lt; T &gt;::Iterator::Iterator</definition>
+        <argsstring>()=default</argsstring>
+        <name>Iterator</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::Iterator</qualifiedname>
+        <briefdescription>
+<para>Default <ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref> constructor. Initializes both associated <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> and node to nullptr. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a83b59759270206542e3333fca916c19c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FieaGameEngine::SList&lt; T &gt;::Iterator::operator==</definition>
+        <argsstring>(const Iterator &amp;lhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+<para>Compare two iterators and return if they are equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The iterator being compared to &quot;this.&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the iterators are equal, false if they are not.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="61" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a4942006f80d1f58ad2fbefbde2928f1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FieaGameEngine::SList&lt; T &gt;::Iterator::operator!=</definition>
+        <argsstring>(const Iterator &amp;lhs) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+<para>Compare two iterators and return if they are not equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The iterator being compared to &quot;this.&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the iterators are not equal, false if they are.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="70" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a79404a163b65b37c71b5335614a3800d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref> &amp;</type>
+        <definition>Iterator &amp; FieaGameEngine::SList&lt; T &gt;::Iterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::operator++</qualifiedname>
+        <briefdescription>
+<para>Increment an iterator and then return it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An incremented iterator.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="78" column="10" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a1ca47683b667c5bb4c866a18039e959a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref></type>
+        <definition>Iterator FieaGameEngine::SList&lt; T &gt;::Iterator::operator++</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::operator++</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>Incremet an iterator and return a non-incremented copy of it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A copy of the iterator before it is incremented.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="93" column="10" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a0d14426944b6c26edd10babdf234789a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>reference</type>
+        <definition>reference FieaGameEngine::SList&lt; T &gt;::Iterator::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::operator*</qualifiedname>
+        <briefdescription>
+<para>Get the data stored on the node the iterator is pointing to. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The data on the node the iterator is pointing to.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="103" column="11" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="103" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a2ea08d00906c60212338176ed1afd150" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieaGameEngine::SList&lt; T &gt;::Iterator::Iterator</definition>
+        <argsstring>(const SList &amp;owner, Node *node=nullptr)</argsstring>
+        <name>Iterator</name>
+        <qualifiedname>FieaGameEngine::SList::Iterator::Iterator</qualifiedname>
+        <param>
+          <type>const <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> &amp;</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>Node *</type>
+          <declname>node</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>The constructor for the SList&lt;T&gt;::Iterator class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A const reference to the SList&lt;T&gt; the iterator is associated with.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the node the iterator is associated with.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="116" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="116" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The non-const version of the iterator class for <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="47" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="47" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1aa4dc887fd9871445cbe24df165f993f2" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>Iterator</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a2ea08d00906c60212338176ed1afd150" prot="private" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>Iterator</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1ad011141debbf62674e6a8e2e31ccd780" prot="private" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>node</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a4942006f80d1f58ad2fbefbde2928f1c" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>operator!=</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a0d14426944b6c26edd10babdf234789a" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>operator*</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a79404a163b65b37c71b5335614a3800d" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>operator++</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a1ca47683b667c5bb4c866a18039e959a" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>operator++</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a83b59759270206542e3333fca916c19c" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>operator==</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1aa6fe6a1df73d2ef98452bbf6ee943fdd" prot="private" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>owner</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a8491d94f2e176ae32f2b4fc748e4fb92" prot="private" virt="non-virtual"><scope>FieaGameEngine::SList::Iterator</scope><name>SList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

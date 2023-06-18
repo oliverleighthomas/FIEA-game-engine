@@ -1,0 +1,781 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_fiea_game_engine_1_1_s_list" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>FieaGameEngine::SList</compoundname>
+    <innerclass refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator" prot="public">FieaGameEngine::SList::ConstIterator</innerclass>
+    <innerclass refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" prot="public">FieaGameEngine::SList::Iterator</innerclass>
+    <innerclass refid="struct_fiea_game_engine_1_1_s_list_1_1_node" prot="private">FieaGameEngine::SList::Node</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_fiea_game_engine_1_1_s_list_1afc5d8821ebc656cad5020996e008b27b" prot="public" static="no">
+        <type>size_t</type>
+        <definition>using FieaGameEngine::SList&lt; T &gt;::size_type =  size_t</definition>
+        <argsstring></argsstring>
+        <name>size_type</name>
+        <qualifiedname>FieaGameEngine::SList::size_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="15" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_fiea_game_engine_1_1_s_list_1aa5e9db17b348e4dbb4f1f3337552d721" prot="public" static="no">
+        <type>T</type>
+        <definition>using FieaGameEngine::SList&lt; T &gt;::value_type =  T</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>FieaGameEngine::SList::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="16" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_fiea_game_engine_1_1_s_list_1a209529581f7eeae67b41473fdb38a2d4" prot="public" static="no">
+        <type>value_type &amp;</type>
+        <definition>using FieaGameEngine::SList&lt; T &gt;::reference =  value_type&amp;</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>FieaGameEngine::SList::reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="17" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_fiea_game_engine_1_1_s_list_1aa5482cfc102cbb01bc31b58e18dec6dd" prot="public" static="no">
+        <type>const value_type &amp;</type>
+        <definition>using FieaGameEngine::SList&lt; T &gt;::const_reference =  const value_type&amp;</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>FieaGameEngine::SList::const_reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="18" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_fiea_game_engine_1_1_s_list_1a822dcfb1939cd2ced57c3ae793a86869" prot="public" static="no">
+        <type>T &amp;&amp;</type>
+        <definition>using FieaGameEngine::SList&lt; T &gt;::rvalue_reference =  T&amp;&amp;</definition>
+        <argsstring></argsstring>
+        <name>rvalue_reference</name>
+        <qualifiedname>FieaGameEngine::SList::rvalue_reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="19" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fiea_game_engine_1_1_s_list_1a8562e90b8d9d7796ee5b49d103c1e2bc" prot="private" static="no" mutable="no">
+        <type>Node *</type>
+        <definition>Node* FieaGameEngine::SList&lt; T &gt;::front</definition>
+        <argsstring></argsstring>
+        <name>front</name>
+        <qualifiedname>FieaGameEngine::SList::front</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>The first node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="348" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fiea_game_engine_1_1_s_list_1abae496edcf8e3eef64860e9fd37f3510" prot="private" static="no" mutable="no">
+        <type>Node *</type>
+        <definition>Node* FieaGameEngine::SList&lt; T &gt;::back</definition>
+        <argsstring></argsstring>
+        <name>back</name>
+        <qualifiedname>FieaGameEngine::SList::back</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>The last node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="352" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fiea_game_engine_1_1_s_list_1a5e6632e7a745556e5c1f7877ce714109" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t FieaGameEngine::SList&lt; T &gt;::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>FieaGameEngine::SList::size</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+<para>The size of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="356" column="8" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a5c3f2fc5da0f27f7f375229ef768d387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FieaGameEngine::SList&lt; T &gt;::SList</definition>
+        <argsstring>()=default</argsstring>
+        <name>SList</name>
+        <qualifiedname>FieaGameEngine::SList::SList</qualifiedname>
+        <briefdescription>
+<para>The default constructor for SLists. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="194" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a395ca285a3b15627c2be827e45b51ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FieaGameEngine::SList&lt; T &gt;::SList</definition>
+        <argsstring>(initializer_list&lt; value_type &gt; list)</argsstring>
+        <name>SList</name>
+        <qualifiedname>FieaGameEngine::SList::SList</qualifiedname>
+        <param>
+          <type>initializer_list&lt; value_type &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+<para>The initializer list version of the constructor for SLists. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of the data to be put into the nodes of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a7c78c18b325fcdacc1b1de1ef644d9b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FieaGameEngine::SList&lt; T &gt;::SList</definition>
+        <argsstring>(const SList &amp;lhs)</argsstring>
+        <name>SList</name>
+        <qualifiedname>FieaGameEngine::SList::SList</qualifiedname>
+        <param>
+          <type>const <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+<para>The copy constructor for SLists. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> to copy from.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="204" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a27ee855dbdb765177468a27dfc29efe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> &amp;</type>
+        <definition>SList&lt; T &gt; &amp; FieaGameEngine::SList&lt; T &gt;::operator=</definition>
+        <argsstring>(const SList &amp;other)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FieaGameEngine::SList::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>The assignment operator for SLists. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> to copy from.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A reference to the newly created <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="210" column="7" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="27" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1adf90b41997fca2b60df4e38777f8560b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FieaGameEngine::SList&lt; T &gt;::~SList</definition>
+        <argsstring>()</argsstring>
+        <name>~SList</name>
+        <qualifiedname>FieaGameEngine::SList::~SList</qualifiedname>
+        <briefdescription>
+<para>The destructor for <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="214" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a293d59a714308b399df87bfd867bf5ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieaGameEngine::SList&lt; T &gt;::PushFront</definition>
+        <argsstring>(const_reference data)</argsstring>
+        <name>PushFront</name>
+        <qualifiedname>FieaGameEngine::SList::PushFront</qualifiedname>
+        <param>
+          <type>const_reference</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Pushes the given data to the front of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to add to the front.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="220" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="44" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a1c8e9c795ae1ee53ae52b878fec8a8a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieaGameEngine::SList&lt; T &gt;::PushBack</definition>
+        <argsstring>(const_reference data)</argsstring>
+        <name>PushBack</name>
+        <qualifiedname>FieaGameEngine::SList::PushBack</qualifiedname>
+        <param>
+          <type>const_reference</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Pushes the given data to the back of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to add to the back.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="225" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="56" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a435af37ddf7472e52bf9a37b3feeda2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieaGameEngine::SList&lt; T &gt;::PopFront</definition>
+        <argsstring>()</argsstring>
+        <name>PopFront</name>
+        <qualifiedname>FieaGameEngine::SList::PopFront</qualifiedname>
+        <briefdescription>
+<para>Removes the first value in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="230" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="71" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a91b79f66495f79599edc2902e3653d55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieaGameEngine::SList&lt; T &gt;::PopBack</definition>
+        <argsstring>()</argsstring>
+        <name>PopBack</name>
+        <qualifiedname>FieaGameEngine::SList::PopBack</qualifiedname>
+        <briefdescription>
+<para>Removes the last value in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="234" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="82" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a499af769660582135a2bce21f9e211f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_type</type>
+        <definition>size_t FieaGameEngine::SList&lt; T &gt;::Size</definition>
+        <argsstring>() const</argsstring>
+        <name>Size</name>
+        <qualifiedname>FieaGameEngine::SList::Size</qualifiedname>
+        <briefdescription>
+<para>Checks the size of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The size of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="240" column="12" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a34cb5313c89b259392b00521a12b5bf5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FieaGameEngine::SList&lt; T &gt;::IsEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEmpty</name>
+        <qualifiedname>FieaGameEngine::SList::IsEmpty</qualifiedname>
+        <briefdescription>
+<para>Checks if the given <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> is empty. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref> is empty, false if it is not.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="245" column="7" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="117" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1aa185aa6310f6af6cbe3753248f1d240f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>reference</type>
+        <definition>T &amp; FieaGameEngine::SList&lt; T &gt;::Front</definition>
+        <argsstring>()</argsstring>
+        <name>Front</name>
+        <qualifiedname>FieaGameEngine::SList::Front</qualifiedname>
+        <briefdescription>
+<para>The first piece of data in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A reference to the data stored in the first node of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="251" column="12" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="122" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1aa7ee8165bc42c593ed8e33bece0dfceb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_reference</type>
+        <definition>const T &amp; FieaGameEngine::SList&lt; T &gt;::Front</definition>
+        <argsstring>() const</argsstring>
+        <name>Front</name>
+        <qualifiedname>FieaGameEngine::SList::Front</qualifiedname>
+        <briefdescription>
+<para>The first piece of data in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A const reference to the data stored in the first node of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="256" column="18" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="130" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1aa198dd169c528edc1ef98a8e01530185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>reference</type>
+        <definition>T &amp; FieaGameEngine::SList&lt; T &gt;::Back</definition>
+        <argsstring>()</argsstring>
+        <name>Back</name>
+        <qualifiedname>FieaGameEngine::SList::Back</qualifiedname>
+        <briefdescription>
+<para>The last piece of data in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A reference to the data stored in the last node of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="262" column="12" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="138" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1ad774494028b080e00bd867554a05297e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_reference</type>
+        <definition>const T &amp; FieaGameEngine::SList&lt; T &gt;::Back</definition>
+        <argsstring>() const</argsstring>
+        <name>Back</name>
+        <qualifiedname>FieaGameEngine::SList::Back</qualifiedname>
+        <briefdescription>
+<para>The last piece of data in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A const reference to the data stored in the last node of the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="267" column="18" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="146" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1ab19c823186ed496a5a4101b6f42d63a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieaGameEngine::SList&lt; T &gt;::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>FieaGameEngine::SList::Clear</qualifiedname>
+        <briefdescription>
+<para>Clears the given <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="272" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="99" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a18e6ebba1edb94c69e935539b776e256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref></type>
+        <definition>SList&lt; T &gt;::Iterator FieaGameEngine::SList&lt; T &gt;::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>FieaGameEngine::SList::begin</qualifiedname>
+        <briefdescription>
+<para>The iterator pointing to the first node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An iterator pointing to the first node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="280" column="11" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a693192b5747633545b12d470a1e6cf45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref></type>
+        <definition>SList&lt; T &gt;::Iterator FieaGameEngine::SList&lt; T &gt;::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>FieaGameEngine::SList::end</qualifiedname>
+        <briefdescription>
+<para>The iterator pointing to the last node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An iterator pointing to the last node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="285" column="11" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1aae639931a9bde566c69d6ed16de0bc78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator" kindref="compound">ConstIterator</ref></type>
+        <definition>SList&lt; T &gt;::ConstIterator FieaGameEngine::SList&lt; T &gt;::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <qualifiedname>FieaGameEngine::SList::begin</qualifiedname>
+        <briefdescription>
+<para>The const iterator pointing to the first node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A const iterator pointing to the first node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="291" column="16" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1adafc1c6b6b16fbff2d1baa790c46d191" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator" kindref="compound">ConstIterator</ref></type>
+        <definition>SList&lt; T &gt;::ConstIterator FieaGameEngine::SList&lt; T &gt;::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <qualifiedname>FieaGameEngine::SList::end</qualifiedname>
+        <briefdescription>
+<para>The const iterator pointing to the last node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A const iterator pointing to the last node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="296" column="16" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a16bbce7b7013036aa0874c5c0a264c50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator" kindref="compound">ConstIterator</ref></type>
+        <definition>SList&lt; T &gt;::ConstIterator FieaGameEngine::SList&lt; T &gt;::cbegin</definition>
+        <argsstring>() const</argsstring>
+        <name>cbegin</name>
+        <qualifiedname>FieaGameEngine::SList::cbegin</qualifiedname>
+        <briefdescription>
+<para>The const iterator pointing to the first node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A const iterator pointing to the first node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="302" column="16" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a49d9726b0827e7e4d68920128ecd5a79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator" kindref="compound">ConstIterator</ref></type>
+        <definition>SList&lt; T &gt;::ConstIterator FieaGameEngine::SList&lt; T &gt;::cend</definition>
+        <argsstring>() const</argsstring>
+        <name>cend</name>
+        <qualifiedname>FieaGameEngine::SList::cend</qualifiedname>
+        <briefdescription>
+<para>The const iterator pointing to the last node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A const iterator pointing to the last node in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="307" column="16" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a1c19120a5a04b1697ab93b06c0b9eba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref></type>
+        <definition>SList&lt; T &gt;::Iterator FieaGameEngine::SList&lt; T &gt;::InsertAfter</definition>
+        <argsstring>(const_reference data, Iterator &amp;iter)</argsstring>
+        <name>InsertAfter</name>
+        <qualifiedname>FieaGameEngine::SList::InsertAfter</qualifiedname>
+        <param>
+          <type>const_reference</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref> &amp;</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given value after the node the given iterator is pointing at, then returns an iterator to that new node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to insert into the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The location of the node that will be before the new node.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An iterator pointing to the new data in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="316" column="10" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="190" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a2cffb24f42c797014c25efc969b9f1d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref></type>
+        <definition>SList&lt; T &gt;::Iterator FieaGameEngine::SList&lt; T &gt;::Find</definition>
+        <argsstring>(const_reference value)</argsstring>
+        <name>Find</name>
+        <qualifiedname>FieaGameEngine::SList::Find</qualifiedname>
+        <param>
+          <type>const_reference</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Finds the given data in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to look for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>If the data is found, an iterator pointing to it is returned. Otherwise, an end iterator is returned.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="324" column="10" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="211" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1aec25b647a0e03b30815bc320ce6a24bd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator" kindref="compound">ConstIterator</ref></type>
+        <definition>SList&lt; T &gt;::ConstIterator FieaGameEngine::SList&lt; T &gt;::Find</definition>
+        <argsstring>(const_reference value) const</argsstring>
+        <name>Find</name>
+        <qualifiedname>FieaGameEngine::SList::Find</qualifiedname>
+        <param>
+          <type>const_reference</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Finds the given data in the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to look for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>If the data is found, a const iterator pointing to it is returned. Otherwise, a const end iterator is returned.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="331" column="15" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="221" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1a76c38208f13756cf116fa62efe12ec67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieaGameEngine::SList&lt; T &gt;::Remove</definition>
+        <argsstring>(const_reference value)</argsstring>
+        <name>Remove</name>
+        <qualifiedname>FieaGameEngine::SList::Remove</qualifiedname>
+        <param>
+          <type>const_reference</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Removes the given value from the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to remove from the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="337" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fiea_game_engine_1_1_s_list_1ab7d65fd2fe00887c8fcc2aebb04ce070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieaGameEngine::SList&lt; T &gt;::RemoveAt</definition>
+        <argsstring>(Iterator location)</argsstring>
+        <name>RemoveAt</name>
+        <qualifiedname>FieaGameEngine::SList::RemoveAt</qualifiedname>
+        <param>
+          <type><ref refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kindref="compound">Iterator</ref></type>
+          <declname>location</declname>
+        </param>
+        <briefdescription>
+<para>Removes the data at the given location from the <ref refid="class_fiea_game_engine_1_1_s_list" kindref="compound">SList</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>location</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The location of the data to remove.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="342" column="6" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.inl" bodystart="236" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" line="12" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared/SList.h" bodystart="12" bodyend="357"/>
+    <listofallmembers>
+      <member refid="class_fiea_game_engine_1_1_s_list_1abae496edcf8e3eef64860e9fd37f3510" prot="private" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>back</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1aa198dd169c528edc1ef98a8e01530185" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Back</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1ad774494028b080e00bd867554a05297e" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Back</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a18e6ebba1edb94c69e935539b776e256" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>begin</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1aae639931a9bde566c69d6ed16de0bc78" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>begin</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a16bbce7b7013036aa0874c5c0a264c50" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>cbegin</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a49d9726b0827e7e4d68920128ecd5a79" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>cend</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1ab19c823186ed496a5a4101b6f42d63a2" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Clear</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1aa5482cfc102cbb01bc31b58e18dec6dd" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>const_reference</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a693192b5747633545b12d470a1e6cf45" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>end</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1adafc1c6b6b16fbff2d1baa790c46d191" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>end</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a2cffb24f42c797014c25efc969b9f1d2" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Find</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1aec25b647a0e03b30815bc320ce6a24bd" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Find</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a8562e90b8d9d7796ee5b49d103c1e2bc" prot="private" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>front</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1aa185aa6310f6af6cbe3753248f1d240f" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Front</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1aa7ee8165bc42c593ed8e33bece0dfceb" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Front</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a1c19120a5a04b1697ab93b06c0b9eba6" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>InsertAfter</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a34cb5313c89b259392b00521a12b5bf5" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>IsEmpty</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a27ee855dbdb765177468a27dfc29efe6" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>operator=</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a91b79f66495f79599edc2902e3653d55" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>PopBack</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a435af37ddf7472e52bf9a37b3feeda2b" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>PopFront</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a1c8e9c795ae1ee53ae52b878fec8a8a3" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>PushBack</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a293d59a714308b399df87bfd867bf5ee" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>PushFront</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a209529581f7eeae67b41473fdb38a2d4" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>reference</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a76c38208f13756cf116fa62efe12ec67" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Remove</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1ab7d65fd2fe00887c8fcc2aebb04ce070" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>RemoveAt</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a822dcfb1939cd2ced57c3ae793a86869" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>rvalue_reference</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a5e6632e7a745556e5c1f7877ce714109" prot="private" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>size</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a499af769660582135a2bce21f9e211f3" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>Size</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1afc5d8821ebc656cad5020996e008b27b" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>size_type</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a5c3f2fc5da0f27f7f375229ef768d387" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>SList</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a395ca285a3b15627c2be827e45b51ea9" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>SList</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1a7c78c18b325fcdacc1b1de1ef644d9b4" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>SList</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1aa5e9db17b348e4dbb4f1f3337552d721" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>value_type</name></member>
+      <member refid="class_fiea_game_engine_1_1_s_list_1adf90b41997fca2b60df4e38777f8560b" prot="public" virt="non-virtual"><scope>FieaGameEngine::SList</scope><name>~SList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

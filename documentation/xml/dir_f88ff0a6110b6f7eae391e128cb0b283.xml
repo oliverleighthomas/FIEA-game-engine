@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_f88ff0a6110b6f7eae391e128cb0b283" kind="dir">
+    <compoundname>C:/Dev/Students/CH19</compoundname>
+    <innerdir refid="dir_59fb7fa12b20a187aed905a818068df0">C:/Dev/Students/CH19/Oliver.Thomas</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/"/>
+  </compounddef>
+</doxygen>

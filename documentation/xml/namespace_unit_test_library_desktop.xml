@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_unit_test_library_desktop" kind="namespace" language="C++">
+    <compoundname>UnitTestLibraryDesktop</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_foo_tests_8cpp_1a5688e4502f44ec93e9c8f7852ae085d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UnitTestLibraryDesktop::TEST_CLASS</definition>
+        <argsstring>(FooTests)</argsstring>
+        <name>TEST_CLASS</name>
+        <qualifiedname>UnitTestLibraryDesktop::TEST_CLASS</qualifiedname>
+        <param>
+          <type>FooTests</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/FooTests.cpp" line="13" column="1" bodyfile="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/FooTests.cpp" bodystart="13" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/FooTests.cpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

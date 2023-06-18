@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator" kind="class"><name>FieaGameEngine::SList::ConstIterator</name>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1af34da0aa499cee1c063723be0a9053be" kind="variable"><name>SList</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1aaede910b27c37d0a6002306a2d11f98a" kind="variable"><name>owner</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1a6acaa9e6a9ff14c19943c11cfac0be77" kind="variable"><name>node</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1ab944fee6035d0790fa518779822e970f" kind="function"><name>ConstIterator</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1a683ae85697b033325de5246b51bd651d" kind="function"><name>operator==</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1a5e86e052e2e6c7bc4a7764c8632f9177" kind="function"><name>operator!=</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1a90931c1624b519885e641542b08a8b0a" kind="function"><name>operator*</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_const_iterator_1a4a503dc5570ca01924edee167636bc53" kind="function"><name>ConstIterator</name></member>
+  </compound>
+  <compound refid="class_unit_tests_1_1_foo" kind="class"><name>UnitTests::Foo</name>
+    <member refid="class_unit_tests_1_1_foo_1abd2025f4746a0726688f2ae706228c41" kind="variable"><name>_data</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a91f150c91d15d9f40cb30fa1385bfac6" kind="function"><name>Foo</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a22437a0a9ab8239fa3ffcf71006399f5" kind="function"><name>Foo</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a750bef9f18ce9eacd97144de294209b9" kind="function"><name>Foo</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a5f3e3304b991da43cee32f83980b57a2" kind="function"><name>operator=</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a1bd5f43d89bff198b656f0ba66beacec" kind="function"><name>operator=</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a93deea42b95e617245bda005db0e77cf" kind="function"><name>~Foo</name></member>
+    <member refid="class_unit_tests_1_1_foo_1ae274b380d5b58eab888187d79b820938" kind="function"><name>operator==</name></member>
+    <member refid="class_unit_tests_1_1_foo_1af06f3e8c4a8ef093b4c6288d7cf8d8c7" kind="function"><name>operator!=</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a63142a4081c8ee91a9635e7a16549f76" kind="function"><name>Data</name></member>
+    <member refid="class_unit_tests_1_1_foo_1a57554fad10e431910f48dd342db8dd7e" kind="function"><name>SetData</name></member>
+  </compound>
+  <compound refid="class_fiea_game_engine_1_1_s_list_1_1_iterator" kind="class"><name>FieaGameEngine::SList::Iterator</name>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a8491d94f2e176ae32f2b4fc748e4fb92" kind="variable"><name>SList</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1aa6fe6a1df73d2ef98452bbf6ee943fdd" kind="variable"><name>owner</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1ad011141debbf62674e6a8e2e31ccd780" kind="variable"><name>node</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1aa4dc887fd9871445cbe24df165f993f2" kind="function"><name>Iterator</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a83b59759270206542e3333fca916c19c" kind="function"><name>operator==</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a4942006f80d1f58ad2fbefbde2928f1c" kind="function"><name>operator!=</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a79404a163b65b37c71b5335614a3800d" kind="function"><name>operator++</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a1ca47683b667c5bb4c866a18039e959a" kind="function"><name>operator++</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a0d14426944b6c26edd10babdf234789a" kind="function"><name>operator*</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1_1_iterator_1a2ea08d00906c60212338176ed1afd150" kind="function"><name>Iterator</name></member>
+  </compound>
+  <compound refid="struct_fiea_game_engine_1_1_s_list_1_1_node" kind="struct"><name>FieaGameEngine::SList::Node</name>
+    <member refid="struct_fiea_game_engine_1_1_s_list_1_1_node_1aa0935b9930be78801af9ca6fb993b295" kind="variable"><name>data</name></member>
+    <member refid="struct_fiea_game_engine_1_1_s_list_1_1_node_1afb0780372d7c07ecab872423bbf47463" kind="variable"><name>next</name></member>
+    <member refid="struct_fiea_game_engine_1_1_s_list_1_1_node_1a41defb724678a3159880ac7cbef12329" kind="function"><name>Node</name></member>
+  </compound>
+  <compound refid="class_fiea_game_engine_1_1_s_list" kind="class"><name>FieaGameEngine::SList</name>
+    <member refid="class_fiea_game_engine_1_1_s_list_1afc5d8821ebc656cad5020996e008b27b" kind="typedef"><name>size_type</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1aa5e9db17b348e4dbb4f1f3337552d721" kind="typedef"><name>value_type</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a209529581f7eeae67b41473fdb38a2d4" kind="typedef"><name>reference</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1aa5482cfc102cbb01bc31b58e18dec6dd" kind="typedef"><name>const_reference</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a822dcfb1939cd2ced57c3ae793a86869" kind="typedef"><name>rvalue_reference</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a8562e90b8d9d7796ee5b49d103c1e2bc" kind="variable"><name>front</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1abae496edcf8e3eef64860e9fd37f3510" kind="variable"><name>back</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a5e6632e7a745556e5c1f7877ce714109" kind="variable"><name>size</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a5c3f2fc5da0f27f7f375229ef768d387" kind="function"><name>SList</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a395ca285a3b15627c2be827e45b51ea9" kind="function"><name>SList</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a7c78c18b325fcdacc1b1de1ef644d9b4" kind="function"><name>SList</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a27ee855dbdb765177468a27dfc29efe6" kind="function"><name>operator=</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1adf90b41997fca2b60df4e38777f8560b" kind="function"><name>~SList</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a293d59a714308b399df87bfd867bf5ee" kind="function"><name>PushFront</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a1c8e9c795ae1ee53ae52b878fec8a8a3" kind="function"><name>PushBack</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a435af37ddf7472e52bf9a37b3feeda2b" kind="function"><name>PopFront</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a91b79f66495f79599edc2902e3653d55" kind="function"><name>PopBack</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a499af769660582135a2bce21f9e211f3" kind="function"><name>Size</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a34cb5313c89b259392b00521a12b5bf5" kind="function"><name>IsEmpty</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1aa185aa6310f6af6cbe3753248f1d240f" kind="function"><name>Front</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1aa7ee8165bc42c593ed8e33bece0dfceb" kind="function"><name>Front</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1aa198dd169c528edc1ef98a8e01530185" kind="function"><name>Back</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1ad774494028b080e00bd867554a05297e" kind="function"><name>Back</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1ab19c823186ed496a5a4101b6f42d63a2" kind="function"><name>Clear</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a18e6ebba1edb94c69e935539b776e256" kind="function"><name>begin</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a693192b5747633545b12d470a1e6cf45" kind="function"><name>end</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1aae639931a9bde566c69d6ed16de0bc78" kind="function"><name>begin</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1adafc1c6b6b16fbff2d1baa790c46d191" kind="function"><name>end</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a16bbce7b7013036aa0874c5c0a264c50" kind="function"><name>cbegin</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a49d9726b0827e7e4d68920128ecd5a79" kind="function"><name>cend</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a1c19120a5a04b1697ab93b06c0b9eba6" kind="function"><name>InsertAfter</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a2cffb24f42c797014c25efc969b9f1d2" kind="function"><name>Find</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1aec25b647a0e03b30815bc320ce6a24bd" kind="function"><name>Find</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1a76c38208f13756cf116fa62efe12ec67" kind="function"><name>Remove</name></member>
+    <member refid="class_fiea_game_engine_1_1_s_list_1ab7d65fd2fe00887c8fcc2aebb04ce070" kind="function"><name>RemoveAt</name></member>
+  </compound>
+  <compound refid="namespace_fiea_game_engine" kind="namespace"><name>FieaGameEngine</name>
+  </compound>
+  <compound refid="namespace_library_desktop_tests" kind="namespace"><name>LibraryDesktopTests</name>
+    <member refid="_s_list_tests_8cpp_1a2b69b3f907a5fe5af5f6189a4ef61ba7" kind="function"><name>TEST_CLASS</name></member>
+    <member refid="_s_list_tests_8cpp_1a42bf51e951df26ace9801f6c1faf78c8" kind="function"><name>TEST_CLASS</name></member>
+  </compound>
+  <compound refid="namespace_microsoft" kind="namespace"><name>Microsoft</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio" kind="namespace"><name>Microsoft::VisualStudio</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_cpp_unit_test_framework" kind="namespace"><name>Microsoft::VisualStudio::CppUnitTestFramework</name>
+    <member refid="_to_string_specialization_8h_1aedfe03f0ab9a86d2bf4933f2d52ea579" kind="function"><name>ToString&lt; UnitTests::Foo &gt;</name></member>
+    <member refid="_to_string_specialization_8h_1abefd9124b93d987cf7bc11bdb51f7a30" kind="function"><name>ToString&lt; UnitTests::Foo &gt;</name></member>
+    <member refid="_to_string_specialization_8h_1a6ad2eb36e18f4c9e580495adcfb5cdbe" kind="function"><name>ToString&lt; UnitTests::Foo &gt;</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespacestd_1_1string__literals" kind="namespace"><name>std::string_literals</name>
+  </compound>
+  <compound refid="namespace_unit_test_library_desktop" kind="namespace"><name>UnitTestLibraryDesktop</name>
+    <member refid="_foo_tests_8cpp_1a5688e4502f44ec93e9c8f7852ae085d0" kind="function"><name>TEST_CLASS</name></member>
+  </compound>
+  <compound refid="namespace_unit_tests" kind="namespace"><name>UnitTests</name>
+  </compound>
+  <compound refid="_foo_8cpp" kind="file"><name>Foo.cpp</name>
+  </compound>
+  <compound refid="_foo_8h" kind="file"><name>Foo.h</name>
+  </compound>
+  <compound refid="_foo_tests_8cpp" kind="file"><name>FooTests.cpp</name>
+  </compound>
+  <compound refid="_library_8_desktop_8_tests_2pch_8cpp" kind="file"><name>pch.cpp</name>
+  </compound>
+  <compound refid="_library_8_shared_2pch_8cpp" kind="file"><name>pch.cpp</name>
+  </compound>
+  <compound refid="_library_8_desktop_8_tests_2pch_8h" kind="file"><name>pch.h</name>
+    <member refid="_library_8_desktop_8_tests_2pch_8h_1a2388a8543c4492e3e3f1fffeca80c6ee" kind="define"><name>UNREFERENCED_LOCAL</name></member>
+  </compound>
+  <compound refid="_library_8_shared_2pch_8h" kind="file"><name>pch.h</name>
+    <member refid="_library_8_shared_2pch_8h_1a2388a8543c4492e3e3f1fffeca80c6ee" kind="define"><name>UNREFERENCED_LOCAL</name></member>
+  </compound>
+  <compound refid="_s_list_tests_8cpp" kind="file"><name>SListTests.cpp</name>
+  </compound>
+  <compound refid="_to_string_specialization_8h" kind="file"><name>ToStringSpecialization.h</name>
+  </compound>
+  <compound refid="_s_list_8h" kind="file"><name>SList.h</name>
+  </compound>
+  <compound refid="_s_list_8inl" kind="file"><name>SList.inl</name>
+  </compound>
+  <compound refid="dir_f88ff0a6110b6f7eae391e128cb0b283" kind="dir"><name>C:/Dev/Students/CH19</name>
+  </compound>
+  <compound refid="dir_c7a15cb74fa72b419f10875903789323" kind="dir"><name>C:/Dev</name>
+  </compound>
+  <compound refid="dir_d4fa2888f00258cfa67adb7adc1a9e37" kind="dir"><name>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests</name>
+  </compound>
+  <compound refid="dir_4ffbc6e83034df6956623c0c7e130740" kind="dir"><name>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Shared</name>
+  </compound>
+  <compound refid="dir_59fb7fa12b20a187aed905a818068df0" kind="dir"><name>C:/Dev/Students/CH19/Oliver.Thomas</name>
+  </compound>
+  <compound refid="dir_806a5180742756b4da4d161959945dc2" kind="dir"><name>C:/Dev/Students/CH19/Oliver.Thomas/Prog2</name>
+  </compound>
+  <compound refid="dir_2e6b4a8cb19d57fd8d4241b99af4ee4e" kind="dir"><name>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source</name>
+  </compound>
+  <compound refid="dir_632fc4400495e9079d49ed356e8f497d" kind="dir"><name>C:/Dev/Students</name>
+  </compound>
+</doxygenindex>

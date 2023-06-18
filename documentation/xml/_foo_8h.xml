@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_foo_8h" kind="file" language="C++">
+    <compoundname>Foo.h</compoundname>
+    <includes local="no">cstdint</includes>
+    <includedby refid="_foo_8cpp" local="yes">C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.cpp</includedby>
+    <includedby refid="_foo_tests_8cpp" local="yes">C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/FooTests.cpp</includedby>
+    <includedby refid="_s_list_tests_8cpp" local="yes">C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/SListTests.cpp</includedby>
+    <includedby refid="_to_string_specialization_8h" local="yes">C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h</label>
+        <link refid="_foo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h</label>
+        <link refid="_foo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h</label>
+        <link refid="_to_string_specialization_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_unit_tests_1_1_foo" prot="public">UnitTests::Foo</innerclass>
+    <innernamespace refid="namespace_unit_tests">UnitTests</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnitTests</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_unit_tests_1_1_foo" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref><sp/>final</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>(std::int32_t<sp/>data<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>(<ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;&amp;<sp/>rhs)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;<sp/>operator=(<ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;&amp;<sp/>rhs)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">~Foo</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;<sp/>rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_unit_tests_1_1_foo" kindref="compound">Foo</ref>&amp;<sp/>rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::int32_t<sp/>Data()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetData(std::int32_t<sp/>data);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::int32_t*<sp/>_data;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/Foo.h"/>
+  </compounddef>
+</doxygen>

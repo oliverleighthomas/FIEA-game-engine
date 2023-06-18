@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_microsoft_1_1_visual_studio" kind="namespace" language="C++">
+    <compoundname>Microsoft::VisualStudio</compoundname>
+    <innernamespace refid="namespace_microsoft_1_1_visual_studio_1_1_cpp_unit_test_framework">Microsoft::VisualStudio::CppUnitTestFramework</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Dev/Students/CH19/Oliver.Thomas/Prog2/source/Library.Desktop.Tests/ToStringSpecialization.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>
